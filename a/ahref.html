@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        table{
+            width: 400px;
+            height: 400px;
+            table-layout: auto;
+            border: 1px solid red;
+            /* border-collapse: collapse;
+            border-spacing: 0; */
+        }
+        div{
+            width: 400px;
+            margin: 0 auto;
+        }
+        img{
+            width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>语文</th>
+                <th>数学</th>
+                <th>英语</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>小李</th>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <th>小红</th>
+                <td>50</td>
+                <td>50</td>
+                <td>50</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>总分</th>
+                <td>200</td>
+                <td>200</td>
+                <td>200</td>
+            </tr>
+        </tfoot>
+    </table>
+    <div>
+        <!-- <img id="xxx" src="./1.jpg" alt="傻逼陈璐"> -->
+    </div>
+    <script>
+        xxx.onload=function(){
+            alert('图片展示成功');
+        }
+        xxx.onerror=function(){
+            alert('图片展示失败');
+        }
+    </script>
+
+    <form action="">
+        用户名：<input name=username type="text" autocomplete="off">
+        密码：<input name=password type="password">
+        <input type="submit" value="提交" target="_blank">
+        <input name="sex" type="radio" value="boy">
+        <input name="sex" type="radio" value="girl"><br>
+
+        <input type="checkbox" name="hobby" value="basketball">篮球
+        <input type="checkbox" name="hobby" value="basketball">篮球
+        <input type="checkbox" name="hobby" value="basketball">篮球
+        <input type="checkbox" name="hobby" value="basketball">篮球
+
+        <select name="hobby">
+            <option value="-请选择-">-请选择-</option>
+            <option value="篮球">篮球</option>
+            <option value="-游泳-">游泳</option>
+            <option value="-乒乓球-">乒乓球</option>
+        </select>
+    </form>
+</body>
+
+</html>
